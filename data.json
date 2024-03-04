@@ -1,0 +1,132 @@
+{
+    "birds":[
+        {
+            "state":"Iowa",
+            "name":"The American Goldfinch",
+            "science_name":"Spinus tristis",
+            "description":"The American Goldfinch is a small bird. In size it is smaller than a Sparrow and has a wingspan less than 9 inches. As the name insinuates, the American Goldfinch is a Finch bird. with short, strong beaks that aid in breaking open seeds. They are also extremly vocal and often sing while both flying and resting.",
+            "image":"https://images.pexels.com/photos/11098932/pexels-photo-11098932.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "state":"Iowa",
+            "name": "Male American Goldfinch",
+            "science_name":"Spinus tristis",
+            "description":"Male Goldfinches are brightly colored during the summer months, sporting coats that can be easily spotted by their bright yellow body and black wings, tail and head. During the winter months, male's color decreases and they become similarily colored to their female counterparts.",
+            "image":"https://media.istockphoto.com/id/177329264/photo/male-american-goldfinch.jpg?b=1&s=612x612&w=0&k=20&c=y7q_awG7k2S7vxR87FOmVhnNSG7CaoXY1WLhz4ohZlI="
+        },
+        {
+            "state":"Iowa",
+            "name": "Female American Goldfinch",
+            "science_name":"Spinus tristis",
+            "description":"Female Goldfinches have much more subtle coloring, they can often be seen as having olive bodies along with a darker colored tail, wings and head.",
+            "image":"https://images.pexels.com/photos/14333878/pexels-photo-14333878.png?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "state":"Minnesota",
+            "name":"The Common Loon",
+            "science_name":"Gavia immer",
+            "description":"A large and heavy billed loon, the Common loon sports black and whie speckled patterning along its back once it reaches breeding age along with an iridescent green shine on the head. The non breeding age loons have a plain grey upper body and a stark white bottom.",
+            "image":"https://images.pexels.com/photos/16936498/pexels-photo-16936498/free-photo-of-close-up-of-common-loon.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "state":"Minnesota",
+            "name":"Male Common Loon",
+            "science_name": "Gava Immer",
+            "description":"Both male and femal Common Loons have identical looks in regard to color and patterning. The best approach to telling the two apart is by looking at the size of the Loons. Male Loons tend to be approximately 25% larger than their femal counterparts.",
+            "image":"https://media.istockphoto.com/id/1354036611/photo/loon.jpg?b=1&s=612x612&w=0&k=20&c=jMbfLoFFA-wIjtcjsVMHKk54ag9BBXYpDhTVTksvqB4="
+        },
+        {
+            "state":"Minnesota",
+            "name":"Female Common Loon",
+            "science_name":"Gava Immer",
+            "description":"Femal common loons tend to be smaller than males. They will also arrive at common breeding grounds later than males, so a helpful way to tell them apart is to watch breeding areas during season, and keep track of when the birds begin to arrive.",
+            "image":"https://media.istockphoto.com/id/900618664/photo/common-loon-chick-riding-on-mother-as-father-cruises-past.jpg?b=1&s=612x612&w=0&k=20&c=2WAt4ECroGPDhLWRKD3GVQ2HtfA66sEToTJD1bp-CDo="
+        },
+        {
+            "state":"Illinois",
+            "name":"The Northern Cardinal",
+            "science_name":"Cardinalis cardinalis",
+            "description":"A reasonably large and long tailed songbird, the Northern Cardinal has a short, thick bill and a large feathered crest on its head. They are often seen sitting with slightly hunched-over posture and their tail pointed straight vertically downward.",
+            "image":"https://images.pexels.com/photos/7248461/pexels-photo-7248461.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "state":"Illinois",
+            "name":"Male Northern Cardinal",
+            "science_name":"Cardinalis cardinalis",
+            "description":"Male Cardinals are a bright, extreme red across their entire body, other than a stark black ring around the face and bill. They are just barely larger than their female counterpart but they tend to sing significantly more.",
+            "image":"https://media.istockphoto.com/id/1312384073/photo/cardinal-in-spruce-tree.jpg?b=1&s=612x612&w=0&k=20&c=TlT0nIA1XXqofFbe4YAZdvLnquHyqKweuTKtNCl7gO0="
+        },
+        {
+            "state":"Illinois",
+            "name":"Female Northern Cardinal",
+            "science_name":"Cardinalis cardinalis",
+            "description":"The female Cardinal is slightly smaller than the male, but differs significantly in color. They have a grey face and a coat that is often pale brown with a yellowish throat. Compared to the male, female cardinals are much quiter and work to build the nest and incubate eggs.",
+            "image":"https://images.pexels.com/photos/5565442/pexels-photo-5565442.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "state":"Nebraska",
+            "name":"The Western Medowlark",
+            "science_name":"Sturnella neglecta",
+            "description":"The Western Meadowlark is a robin-sized songbird, often heard more than it is seen. The melody they sing is often considered to be buoyant and flutelike, and their nests are normally found with a grass roof and sometimes entrance tunnel that can reach up to a foot long depending on how long the Meadowlark has nested their.",
+            "image":"https://images.pexels.com/photos/12792412/pexels-photo-12792412.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "state":"Nebraska",
+            "name":"Male Western Meadowlark",
+            "science_name":"Sturnella neglecta",
+            "description":"There are no major color differences between female and male Western Meadowlarks, they both have a bright and distinct yellow underbelly, with brown and black streaking present on their sides and backs.",
+            "image":"https://images.pexels.com/photos/10993668/pexels-photo-10993668.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "state":"Nebraska",
+            "name":"Female Western Meadowlark",
+            "science_name":"Sturnella neglecta",
+            "description":"The main difference that can be noticed between the females and males is that the females may be a little more beat up. They tend to have feathers that are slightly more ruffled or an increased level of dishevelty to their look than their male counterparts.",
+            "image":"https://images.pexels.com/photos/17236619/pexels-photo-17236619/free-photo-of-western-meadowlark-sturnella-neglecta-perched-on-a-post-during-golden-hour-in-the-badlands-national-park.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "state":"Wisconsin",
+            "name":"The American Robin",
+            "science_name":"Turdus migratorius",
+            "description":"American Robins can be seen all across North America. They sport an orange breast and grey back, and are known for their morning songs. Sometimes considered 'the early bird' Robins can often be seen both in cities and in the wilderness, up at early hours and preparing for their day by hunting insects and worms.",
+            "image":":https://images.pexels.com/photos/7702295/pexels-photo-7702295.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "state":"Wisconsin",
+            "name":"Male American Robin",
+            "science_name":"Turdus migratorius",
+            "description":"Male Robins have a rust or orange colored chest, and a yellow bill with a blackhead and eyes outlined by white. They tend to be more brightly colored than the female Robin although very similar in size. Male robins are also highly territorial birds, keeping protection over their claimed land.",
+            "image":"https://media.istockphoto.com/id/154952276/photo/american-robin-with-wiggling-worm-in-beak.jpg?b=1&s=612x612&w=0&k=20&c=J6rr1SQ6cycmztc4G2aVhcMs-vHc2Bd49UdBzlAdYu8="
+        },
+        {
+            "state":"Wisconsin",
+            "name":"Female American Robin",
+            "science_name":"Turdus migratorius",
+            "description":"Female Robins tend to be just slightly duller in color than the males, but all Robins show the same colors between sexes. The female Robin is much more docile and less territorial than the male, known as a nester and builder more than a hunter.",
+            "image":"https://images.pexels.com/photos/18761766/pexels-photo-18761766/free-photo-of-american-robin-sitting-on-a-branch-and-eating-berries.jpeg?auto=compress&cs=tinysrgb&w=600"
+        }
+    ],
+
+    "maps": [
+        {
+            "name":"American Goldfinch",
+            "image":"https://www.allaboutbirds.org/guide/assets/photo/63179501-720px.jpg"
+        },
+        {
+            "name":"Common Loon",
+            "image":"https://www.allaboutbirds.org/guide/assets/photo/31755041-720px.jpg"
+        },
+        {
+            "name":"Northern Cardinal",
+            "image":"https://www.allaboutbirds.org/guide/assets/photo/311148961-720px.jpg"
+        },
+        {
+            "name":"Western Meadowlark",
+            "image":"https://www.allaboutbirds.org/guide/assets/photo/39442461-720px.jpg"
+        },
+        {
+            "name":"American Robin",
+            "image":":https://www.allaboutbirds.org/guide/assets/photo/90628731-720px.jpg"
+        }
+    ]
+}
