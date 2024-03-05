@@ -23,5 +23,16 @@ function testingBirds(birdsData){
     }
 }
 
+function unhidePopMap(){
+    var popImage = document.getElementById('bird-pop');
+    if(popImage.style.display == 'none'){
+    popImage.style.display = 'block';
+    }
+    else{
+    popImage.style.display = 'none';
+    }
+}
+
+
 
 
