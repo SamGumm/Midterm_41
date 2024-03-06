@@ -6,7 +6,7 @@ function testingBirds(birdsData){
     var body = document.getElementsByClassName("card-body");
     let cardCounter = 0;
     for(var i = 0; i < birdsData.birds.length; i++){
-        if(birdsData.birds[i].state == "Iowa"){
+        if(birdsData.birds[i].state == "Wisconsin"){
             let img = document.createElement("img");
             img.src = birdsData.birds[i].image
             img.style.width = "100%";
@@ -22,6 +22,17 @@ function testingBirds(birdsData){
         }
     }
 }
+
+function unhidePopMap(){
+    var popImage = document.getElementById('bird-pop');
+    if(popImage.style.display == 'none'){
+    popImage.style.display = 'block';
+    }
+    else{
+    popImage.style.display = 'none';
+    }
+}
+
 
 
 
