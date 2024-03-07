@@ -92,6 +92,13 @@
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
+
+      .main-container {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        height: 100%;
+      }
     </style>
 
     
@@ -107,7 +114,7 @@
                     </div>
 
                     <div class = "col-sm-3 col-md-2 py-4">
-                        <h4><a href="states.html" style="color: #ffff">States</a></h4>
+                        <h4><a href="state_Hub.html" style="color: #ffff">States</a></h4>
                     </div>
                     
                     <div class="col-sm-3 col-md-2 py-4">
@@ -122,11 +129,16 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <p style="color: aliceblue;">Home</p>
             </div>
         </div>
     </header>
 
-    <h1>Welcome!</h1>
-    <h3>To all aspiring bird-watchers...</h3>
-        <p>Here is the one-stop-shop for all your needs to get into bird-watching in the Midwest!</p>
+    <h1 class="main-container">Welcome!</h1>
+    <h3 class="main-container">To all aspiring bird-watchers...</h3> 
+    <p class="main-container">Here is the one-stop-shop for all your needs to get into bird-watching in the Midwest!</p>
+
+    <div class="main-container">
+        <img src="./images/midwest_map.png" alt="midwest_map" width="500px">
+    </div>
 </html>

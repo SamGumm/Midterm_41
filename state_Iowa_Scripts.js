@@ -6,7 +6,7 @@ function testingBirds(birdsData){
     var body = document.getElementsByClassName("card-body");
     let cardCounter = 0;
     for(var i = 0; i < birdsData.birds.length; i++){
-        if(birdsData.birds[i].state == "Wisconsin"){
+        if(birdsData.birds[i].state == "Iowa"){
             let img = document.createElement("img");
             img.src = birdsData.birds[i].image
             img.style.width = "100%";
