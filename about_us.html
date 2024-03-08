@@ -92,6 +92,13 @@
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
+
+      .main-container {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        height: 100%;
+      }
     </style>
 
     
@@ -126,9 +133,14 @@
         </div>
     </header>
 
-    <h1>About Us</h1>
-    <h3>Sam Gumm</h3>
-        <img src="./images/smgumm_Photo.JPG" alt="Sam Gumm headshot" width="200">
-        <p>My name is Sam Gumm, and I am a Computer Science senior here at ISU</p>
+    <h1 class="main-container">About Us</h1>
+    <div>
+      <h3 style="padding-left: 33px;">Sam Gumm</h3>
+      <div style="display: flex; align-items: center;">
+        <img src="./images/smgumm_Photo.JPG" alt="Sam Gumm headshot" width="200" style="padding-left: 20px;">
+        <p style="padding-left: 20px;">My name is Sam Gumm, and I am a Computer Science senior here at ISU</p>
+      </div>
+    </div>
+    
     <h3>Braeden Hegarty</h3>
 </html>
