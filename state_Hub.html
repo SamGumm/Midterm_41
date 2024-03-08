@@ -104,10 +104,21 @@
       }
 
       .state-icon {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
+      display: block; 
+      margin: 0 auto 20px; 
+      max-width: 100%; 
       }
+
+    .d-flex.flex-column {
+      justify-content: flex-start; 
+      flex-grow: 1; 
+    }
+
+    .state-name {
+      margin-top: auto; 
+      width: 100%; 
+      text-align: center; 
+    }
 
     </style>
 
@@ -144,51 +155,50 @@
     </header>
 
     <div class="container px-4 py-5" id="custom-cards">
-      <h2 class="pb-2 border-bottom">States</h2>
+      <h2 class="pb-2 border-bottom text-center">States</h2>
   
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-
         <div class="col">
           <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg state-card">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" style="background-color: dodgerblue;">
               <img src="https://worldpopulationreview.com/state-outlines/il/outline-il-1400w.png" class="state-icon">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><a href="illinois.html" style="color: azure;">Illinois</a></h3>
+              <h3 class="state-name"><a href="illinois.html" style="color: azure;">Illinois</a></h3>
             </div>
           </div>
         </div>
 
         <div class="col">
           <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg state-card">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" style="background-color: dodgerblue;">
-              <img src="https://worldpopulationreview.com/state-outlines/ia/outline-ia-1400w.png" width="300px" height="150px" style="object-fit: fill; justify-content: center; padding-right: 20px;" >
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><a href="state_Iowa.html" style="color: azure;">Iowa</a></h3>
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" style="background-color: dodgerblue; align-items: center;">
+              <img src="https://worldpopulationreview.com/state-outlines/ia/outline-ia-1400w.png" style="width: 350px; height: auto; margin-bottom: 20px;">
+              <h3 class="state-name"><a href="state_Iowa.html" style="color: azure;">Iowa</a></h3>
             </div>
           </div>
         </div>
 
         <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg state-card">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" style="background-color: dodgerblue;">
-                <img src="https://worldpopulationreview.com/state-outlines/ne/outline-ne-1400w.png" width="100%" height="100px" style="object-fit:cover;">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><a href="nebraska.html" style="color: azure;">Nebraska</a></h3>
-              </div>
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg state-card">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" style="background-color: dodgerblue; align-items: center;">
+              <img src="https://worldpopulationreview.com/state-outlines/ne/outline-ne-1400w.png" style="width: 350px; height: auto; margin-bottom: 20px;">
+              <h3 class="state-name"><a href="nebraska.html" style="color: azure;">Nebraska</a></h3>
             </div>
+          </div>
         </div>
   
         <div class="col">
           <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg state-card">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" style="background-color: dodgerblue;">
-              <img src="https://worldpopulationreview.com/state-outlines/mn/outline-mn-1400w.png" class="state-icon">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><a href="state_Minnesota.html" style="color: azure;">Minnesota</a></h3>
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" style="background-color: dodgerblue; align-items: center;">
+              <img src="https://worldpopulationreview.com/state-outlines/mn/outline-mn-1400w.png" style="width: 350px; height: auto; margin-bottom: 20px;">
+              <h3 class="state-name"><a href="state_Minnesota.html" style="color: azure;">Minnesota</a></h3>
             </div>
           </div>
         </div>
 
         <div class="col">
           <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg state-card">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" style="background-color: dodgerblue;">
-              <img src="https://worldpopulationreview.com/state-outlines/wi/outline-wi-1400w.png" class="state-icon">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><a href="wisconsin.html" style="color: azure;">Wisconsin</a></h3>
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" style="background-color: dodgerblue; align-items: center;">
+              <img src="https://worldpopulationreview.com/state-outlines/wi/outline-wi-1400w.png" style="width: 350px; height: auto; margin-bottom: 20px;">
+              <h3 class="state-name"><a href="wisconsin.html" style="color: azure;">Wisconsin</a></h3>
             </div>
           </div>
         </div>
